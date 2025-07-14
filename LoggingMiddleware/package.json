@@ -1,0 +1,16 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "main": "./logger.ts",
+  "types": "./logger.ts",
+  "exports": {
+    ".": "./logger.ts",
+    "./logger": "./logger.ts"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
